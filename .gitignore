@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+.env
+
+.venv/
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+.pytest_cache/
+
+app/static/receipts/*
+!app/static/receipts/.gitkeep
