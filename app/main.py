@@ -10,7 +10,6 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    # allow_credentials=True cannot be combined with wildcard origins (browsers reject it).
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:5173",
